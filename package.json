@@ -1,0 +1,19 @@
+{
+  "name": "arc-escrow-ai",
+  "version": "1.0.0",
+  "description": "Arc Escrow — AI-powered work validation + USDC auto-settlement (ERC-8183)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx --env-file=.env index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@circle-fin/developer-controlled-wallets": "^7.0.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
